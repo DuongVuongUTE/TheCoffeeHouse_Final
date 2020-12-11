@@ -72,16 +72,8 @@ public class Login_activity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
-                            FirebaseUser user= FirebaseAuth.getInstance().getCurrentUser();
-                            if (user.isEmailVerified()){
-                                Intent intent=new Intent(Login_activity.this,Home.class);
-                                startActivities(new Intent[]{intent});
-                            }
-                            else {
-                                user.sendEmailVerification();
-                                Toast.makeText(Login_activity.this,"Check Your Email To Verification",Toast.LENGTH_LONG).show();
-                            }
-
+                                Intent intent1=new Intent(Login_activity.this,Home.class);
+                                startActivities(new Intent[]{intent1});
                         }
                         else {
                             Toast.makeText(Login_activity.this,"Đăng nhập thất bại",Toast.LENGTH_LONG).show();

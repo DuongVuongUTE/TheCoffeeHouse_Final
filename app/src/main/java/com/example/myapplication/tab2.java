@@ -56,8 +56,8 @@ public class tab2 extends Fragment {
         LinearLayoutManager linearLayoutManager=new GridLayoutManager(orderScreen,2);
         order_recycle.setLayoutManager(linearLayoutManager);
         List<orderItem> orderItems = new ArrayList<>();
-        orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.product_10));
-        orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.coffee_2));
+        orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.caphe1));
+        orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.caphe2));
         orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.coffee_1));
         orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.coffee_2));
         orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.coffee_2));

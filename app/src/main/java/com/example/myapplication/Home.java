@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
@@ -20,8 +21,9 @@ import java.util.List;
 public class Home extends AppCompatActivity implements itemAdapter.OnNodeListener{
     RecyclerView recycleuudai, recyclecapnhat,recycle_lover;
     itemAdapter itemAdapter;
-    LinearLayout delivery;
+    LinearLayout delivery,tichdiem,coupon;
     Button button;
+    ImageView thongbao;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +31,30 @@ public class Home extends AppCompatActivity implements itemAdapter.OnNodeListene
         recycleuudai=findViewById(R.id.recycle_uudai);
         recycle_lover=findViewById(R.id.recycle_lover);
         recyclecapnhat=findViewById(R.id.recycle_capnhat);
+        tichdiem=findViewById(R.id.tichdiem);
+        coupon=findViewById(R.id.coupon);
+        coupon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent cp=new Intent(Home.this, coupon.class);
+                startActivity(cp);
+            }
+        });
+        tichdiem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent td=new Intent(Home.this, tichdiem.class);
+                startActivity(td);
+            }
+        });
+        thongbao=findViewById(R.id.thongbao);
+        thongbao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent tb=new Intent(Home.this, thongbao.class);
+                startActivity(tb);
+            }
+        });
         delivery= findViewById(R.id.delivery);
         delivery.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -57,7 +57,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:id="@+id/imageView3"
+                    android:id="@+id/thongbao"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -87,6 +87,7 @@
                         android:padding="20dp">
 
                         <LinearLayout
+                            android:id="@+id/tichdiem"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -136,6 +137,7 @@
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/coupon"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -208,7 +210,7 @@
                             android:textStyle="bold" />
 
                         <ImageView
-                            android:id="@+id/imageView8"
+                            android:id="@+id/image"
                             android:layout_width="24dp"
                             android:layout_height="24dp"
                             app:srcCompat="@drawable/menu" />

@@ -62,10 +62,10 @@ public class tab1 extends Fragment {
         orderItems.add(new orderItem("CARAMEL MACCHIATO","55,000 đ",R.drawable.product_4));
         orderItems.add(new orderItem("MOCHA","49,000 đ",R.drawable.product_5));
         orderItems.add(new orderItem("CAPPUCCINO","45,000 đ",R.drawable.product_6));
-        orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.product_7));
-        orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.product_9));
-        orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.product_10));
-        orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.product_11));
+        orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.sp1));
+        orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.sp2));
+        orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.sp3));
+        orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.sp4));
         orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.product_10));
         orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.product_10));
         orderItems.add(new orderItem("Socola Lúa Mạch Nóng","69.000đ",R.drawable.product_10));

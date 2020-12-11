@@ -1,11 +1,13 @@
 package com.example.myapplication;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -39,7 +41,10 @@ public class orderAdapter extends RecyclerView.Adapter<orderAdapter.orderViewhol
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent=new Intent(context, Details.class);
+//                Intent intent=new Intent(context, chitietorder.class);
+//                intent.putExtra("text",itemList.get(position).getTitle());
+//                intent.putExtra("image",itemList.get(position).getImage());
+//                intent.putExtra("title",itemList.get(position).getTitle());
 //                context.startActivities(new Intent[]{intent});
             }
         });
